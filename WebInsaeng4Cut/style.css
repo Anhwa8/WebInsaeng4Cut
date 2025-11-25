@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+#mainHade{
+    background-color: black;
+    color: white;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#main{
+    position: absolute;
+    width: 100%;
+    top: 100px; 
+    bottom: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#frame{
+    width: 400px;
+    height: auto;
+    text-align: center; 
+}
+
+#image-frame{
+    width: 150px;
+    height: 300px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-frame {
+    border: 1px solid black;
+    border-bottom: none;
+    width: 150px;
+    height: 70px;
+    padding: 0;
+}
+
+.image-upload {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#chooseFile {
+    visibility: hidden;
+}
+
+
+footer{
+  position : absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+}
+.Copy{
+    margin-top: 15px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
